@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Entrada</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <!-- Botão para acionar o prompt -->
+    <button onclick="
+        var nome = prompt('Digite seu nome:');
+        // Solicita ao usuário que insira o nome e armazena o valor na variável 'nome'
+
+        var sobrenome = prompt('Digite seu sobrenome');
+        // Solicita ao usuário que insira o sobrenome e armazena na variável 'sobrenome'
+
+        var idade = prompt('Digite sua idade');
+        // Solicita ao usuário que insira sua idade e armazena o valor na variável 'idade'
+
+        // Exibe uma mensagem com os dados coletados usando o alert().
+        alert('Nome: ' + nome + '\nSobrenome: ' + sobrenome + '\nIdade: ' + idade);
+    ">Enviar Dados</button>
+    <!-- O botão executa o código JavaScript para coletar e exibir os dados quando clicado -->
+    
+</body>
+</html>
