@@ -1,5 +1,5 @@
 // Esse programa verifica o estado da conta bancária e sugere ações.
-let saldo = -200;
+let saldo = 2000;
 
 // O if verificar se o saldo é maior que 0 (saldo positivo)
 if(saldo > 0){
